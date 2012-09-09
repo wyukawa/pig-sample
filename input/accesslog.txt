@@ -1,0 +1,10 @@
+aaa.com	user1	1
+bbb.com	user2	2
+ccc.com	user3	3
+bbb.com	user1	4
+ccc.com	user1	5
+aaa.com	user1	6
+aaa.com	user2	7
+aaa.com	user3	8
+aaa.com	user4	9
+aaa.com	user5	10
