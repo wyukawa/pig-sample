@@ -50,12 +50,14 @@ public class SampleLoadStorage extends LoadFunc {
 			for (String string : strings1) {
 				nestedTuple1.append(string);
 			}
+			
 
 			Tuple nestedTuple2 = TupleFactory.getInstance().newTuple();
 			String[] strings2 = text.toString().split("\t");
 			for (String string : strings2) {
 				nestedTuple2.append(string);
 			}
+			nestedTuple2.append(TupleFactory.getInstance().newTuple("1"));
 
 			Tuple t = TupleFactory.getInstance().newTuple();
 			t.append(nestedTuple1);
