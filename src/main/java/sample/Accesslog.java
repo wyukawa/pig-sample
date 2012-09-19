@@ -15,6 +15,7 @@ public class Accesslog {
 		try {
 			PigServer pigServer = new PigServer(ExecType.LOCAL);
 			pigServer.registerScript("pigLatin/accesslog.pig");
+			pigServer.shutdown();
 		} catch (ExecException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
